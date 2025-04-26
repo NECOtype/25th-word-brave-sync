@@ -38,9 +38,10 @@
 		padding: 0.5rem 1rem;
 		font-weight: bold;
 		text-align: center;
-		border-radius: 0.5rem;
+		border-radius: var(--radius-md);
 
 		& span {
+			font-size: var(--text-base);
 			animation: magic 3s linear infinite;
 			background: linear-gradient(to right, var(--gred), var(--gpnk), var(--gblu), var(--gred));
 			background-clip: text;

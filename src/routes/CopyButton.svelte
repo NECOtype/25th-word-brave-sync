@@ -5,7 +5,7 @@
 	let label = $state<'Copy' | 'Copied!'>('Copy');
 	let word = $derived(wordOfTheDay);
 
-	async function handleCopy() {
+	async function copyTheWord() {
 		try {
 			await navigator.clipboard.writeText(get(word));
 			label = 'Copied!';
@@ -16,7 +16,7 @@
 	}
 </script>
 
-<button onclick={handleCopy}>
+<button onclick={copyTheWord}>
 	{label}
 </button>
 
@@ -30,7 +30,7 @@
 		font-weight: bold;
 		text-align: center;
 		border: 1px solid var(--border);
-		border-radius: 0.5rem;
+		border-radius: var(--radius-md);
 
 		&:hover {
 			filter: brightness(85%);

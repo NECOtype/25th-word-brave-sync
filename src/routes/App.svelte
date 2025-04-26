@@ -23,7 +23,7 @@
 		width: 400px;
 		border: 1px solid var(--border);
 		margin: auto;
-		border-radius: 1rem;
+		border-radius: var(--radius-xl);
 		padding: 1rem;
 		display: grid;
 		grid-template-rows: 1fr auto;

@@ -11,7 +11,7 @@
 
 <style>
 	p {
-		font-size: 0.7rem;
+		font-size: var(--text-sm);
 		filter: brightness(90%);
 		padding-top: 0.5rem;
 		border-top: 1px solid var(--border);

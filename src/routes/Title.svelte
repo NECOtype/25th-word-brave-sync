@@ -32,12 +32,12 @@
 
 <style>
 	container {
-		font-size: 1.5rem;
+		font-size: var(--text-2xl);
 		margin-block: 0 1rem;
 		font-weight: bold;
 
 		& #brave-svg {
-			height: 1cap;
+			height: 1.1cap;
 		}
 	}
 </style>
