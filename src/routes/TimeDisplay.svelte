@@ -32,7 +32,7 @@
 
 <style>
 	p {
-		font-size: 0.6rem;
+		font-size: var(--text-xs);
 		filter: brightness(90%);
 		grid-column-start: 1;
 		grid-column-end: 3;
